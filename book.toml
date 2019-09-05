@@ -1,0 +1,11 @@
+[book]
+authors = ["Robert"]
+language = "en"
+multilingual = false
+src = "src"
+title = "WASI, The Promise of Wasm outside of the Web"
+
+[build]
+build-dir = "docs"
+
+[preprocessor.presentation-preprocessor]
