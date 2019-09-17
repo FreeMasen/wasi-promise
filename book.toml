@@ -3,7 +3,10 @@ authors = ["Robert"]
 language = "en"
 multilingual = false
 src = "src"
-title = "WASI, The Promise of Wasm outside of the Web"
+title = "The Promise of Wasm outside of the Web"
+
+[output.html]
+additional-css = ["src/assets/main.css"]
 
 [build]
 build-dir = "docs"
