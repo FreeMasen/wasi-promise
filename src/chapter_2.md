@@ -1,7 +1,6 @@
 # WASI
 $slides-only$
-- WebAssembly System Interface
-  - Like Web APIs but for non-web environments
-  - Or POSIX for Wasm
-- 
+- Wasm is just _a_ bytecode
+- Runtime needs to work on multiple archs
+- Sandboxed Memory
 $slides-only-end$

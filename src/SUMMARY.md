@@ -5,4 +5,3 @@
 - [Runtimes](./chapter_3.md)
 - [WASI](./chapter_4.md)
 - [Pending Proposals](./chapter_5.md)
-- [Further Reading](./chapter_6.md)
