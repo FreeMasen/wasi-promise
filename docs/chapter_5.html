@@ -4,8 +4,6 @@
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Pending Proposals - The Promise of Wasm outside of the Web</title>
-        
-
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,7 +58,7 @@
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script type="text/javascript">
             var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { } 
             if (theme === null || theme === undefined) { theme = default_theme; }
             document.body.className = theme;
             document.querySelector('html').className = theme + ' js';
@@ -79,10 +77,7 @@
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li><a href="chapter_2.html"><strong aria-hidden="true">2.</strong> Byte Code</a></li><li><a href="chapter_3.html"><strong aria-hidden="true">3.</strong> Runtimes</a></li><li><a href="chapter_4.html"><strong aria-hidden="true">4.</strong> WASI</a></li><li><a href="chapter_5.html" class="active"><strong aria-hidden="true">5.</strong> Pending Proposals</a></li></ol>
-            </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+            <ol class="chapter"><li><a href="chapter_1.html"><strong aria-hidden="true">1.</strong> Intro</a></li><li><a href="chapter_2.html"><strong aria-hidden="true">2.</strong> Byte Code</a></li><li><a href="chapter_3.html"><strong aria-hidden="true">3.</strong> Runtimes</a></li><li><a href="chapter_4.html"><strong aria-hidden="true">4.</strong> WASI</a></li><li><a href="chapter_5.html" class="active"><strong aria-hidden="true">5.</strong> Pending Proposals</a></li></ol>
         </nav>
 
         <div id="page-wrapper" class="page-wrapper">
@@ -112,7 +107,7 @@
                             
                         </div>
 
-                        <h1 class="menu-title">The Promise of Wasm outside of the Web</h1>
+                        <h1 class="menu-title">The Promise of Wasm outside of the Web</h1> 
 
                         <div class="right-buttons">
                             <a href="print.html" title="Print this book" aria-label="Print this book">
@@ -159,25 +154,40 @@
   display: none;
 }
 </style>
-<h1><a class="header" href="#pending-proposals" id="pending-proposals">Pending Proposals</a></h1>
+<a class="header" href="#pending-proposals" id="pending-proposals"><h1>Pending Proposals</h1></a>
+<!--slides-only-->
 <ul>
-<li>Anyref
+<li>Reference Types
 <ul>
 <li>External Reference Types</li>
 </ul>
 </li>
-<li>Host Bindings
+<li>Multi-Value
 <ul>
-<li>WebIDL for other languages</li>
+<li>Multiple Return Values</li>
+</ul>
+</li>
+<li>GC
+<ul>
+<li>Optional GC Support</li>
+</ul>
+</li>
+<li>Interface Types
+<ul>
+<li>WebIDL</li>
 </ul>
 </li>
 </ul>
+<!--slides-only-end-->
 <!--notes
 - Huge things on the horizon
 - Anyref
   - Provided simple way to not have to marshall data
   - Set's up for the GC proposal
-- Host Bindings
+- Multi-Value
+  - Tuple-style data structures
+  - String -> (ptr & len) from one function
+- Interface Types
   - Easing the developer experience
   - Lin Clark article from August
 -->
@@ -211,21 +221,6 @@
 
         </div>
 
-        
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            var socket = new WebSocket("ws://localhost:3001");
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload(true); // force reload from server (not from cache)
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
         
 
         
