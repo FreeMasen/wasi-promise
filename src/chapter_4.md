@@ -6,6 +6,9 @@ $slides-only$
 $slides-only$
 
 $notes$
+WASI
+-------
+- Web Assembly System Interface
 - New open standard
-- Goals of highly interop between runtimes
+- Goals of stable interop across runtimes
 $notes-end$

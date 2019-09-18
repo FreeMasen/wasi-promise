@@ -11,7 +11,11 @@ $slides-only$
 $slides-only-end$
 
 $notes$
+Runtimes
+--------
 - Currently = more than expected
+- Very small footprint (~7mb full system runtime)
 - Most provided embeded option
 - Wasmtime == WASI developer
+
 $notes-end$

@@ -7,7 +7,7 @@ $slides-only-end$
 $notes$
 Issues
 --------
-- Comiled
+- Compiled per arch
   - note, could be implemented in Python (Python needs to be installed)
   - rare arches users need to know details
 - JSON is not the most efficient

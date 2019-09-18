@@ -12,6 +12,9 @@ $notes$
 - MdBook
   - Static Site Gen
   - Has Plugins
+  - Plugin Devs Create CLI Apps
+    - CLI Args / STDIN/STDOUT for comms
+    - Can work with Pyton
   - Uses STDIO
     - STDIO is not always reliable
     - Anti-virus spam example

@@ -15,6 +15,10 @@ Solution
   - use this to execute plugins
 - MDBook = Rust
   - Could develop plugins in Rust
+- API would expose 2 function
+  - these replicate the CLI interactions
+    - renderer -> bool
+    - book -> modified book
 - Helpers?
   - Wasm data transfer can be a pain
     - Helpers to perform memory access
